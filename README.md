@@ -71,4 +71,10 @@ And there you go !! we found our flag :D
 ``` Flag : Securinets{CSP_W1Th_BaSE_Is_GooD_Nah?} ```
 
 
+Resources : 
+
+https://klefz.se/2020/11/10/bugpoc-xss-ctf-november-2020-write-up/
+
+https://book.hacktricks.xyz/pentesting-web/content-security-policy-csp-bypass
+
 
