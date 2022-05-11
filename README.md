@@ -22,7 +22,7 @@ We can see the the "base-uri missing" meaning we can use `` <base> `` tags and u
 
 So to abuse this we can try and redirect to a url just to test if the base tags are working
 
-We can use this payloads 
+We can use this payload
 
 ```
 '><base href="https://example.com">
