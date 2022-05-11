@@ -52,7 +52,7 @@ so using the payload :
 
 And yes !! we get an XSS !!
 
-Now all we have to do is add a document.cookie attribut and steal it with out custom ngrok server
+Now all we have to do is to steal the admin cookie through the report endpoint with our custom ngrok server
 
 ![image](https://user-images.githubusercontent.com/58823465/167920820-9cd44941-e9f6-4c1d-b9e9-ee23bd8cd03b.png)
 
