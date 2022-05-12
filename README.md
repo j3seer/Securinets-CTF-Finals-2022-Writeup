@@ -22,7 +22,11 @@ We can see the the "base-uri missing" meaning we can use `` <base> `` tags and u
 
 The base tag is used to specify a base URL for relative links. This URL will be the base URL for every link on the page
 
-So to abuse this we can try and redirect to a url just to test if the base tags are working
+So in layman terms if there's <base href="https/../"> in the source code it will try to fetch the needed assets or tools throught that URL
+
+For example if they're using bootstrap its possible that they added a base tag to get the bootstrap.css or bootstrap.js asset from another url mentionned in the base tag
+
+So to abuse this we can try test it with a random url to see if the base tags are working
 
 We can use this payload
 
