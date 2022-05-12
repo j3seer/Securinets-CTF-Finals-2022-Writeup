@@ -20,6 +20,8 @@ First i checked if the "nonce" is a fixed string so we can abuse it but it seems
 
 We can see the the "base-uri missing" meaning we can use `` <base> `` tags and use a technique called Dangling Markup injection.
 
+The base tag is used to specify a base URL for relative links. This URL will be the base URL for every link on the page
+
 So to abuse this we can try and redirect to a url just to test if the base tags are working
 
 We can use this payload
